@@ -1,4 +1,4 @@
-# student_marks_prediction
+#STUDENT_MARKS_PREDICTION
 #Prediction of student marks based on number of study hours
 
 
@@ -13,7 +13,7 @@ Linearmodel <- lm(Scores~Hours, data = marks)
 Linearmodel
 
 
-# ASSIGNING THE INTERCEPT VALUE TO C IN ORDER TO PERFORM Y=MX+C
+#ASSIGNING THE INTERCEPT VALUE TO C IN ORDER TO PERFORM Y=MX+C
 L <- Linearmodel$coefficients
 L <- as.data.frame(L)
 c <- as.integer(L[1,1])
