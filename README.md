@@ -1,4 +1,4 @@
-#STUDENT_MARKS_PREDICTION
+#STUDENT_MARKS_PREDICTION USING R.
 #Prediction of student marks based on number of study hours
 
 
